@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family:Outfit;
+    src:url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+    font-family: Young;
+    src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf')
+    
+}
+
+
+*{
+    background-color: wheat;
+    font-family: Outfit,sans-serif;
+}
+
+h1 
+{
+    font-family: Outfit ;
+}
+
+h2 {
+    font-family: Young,sans-serif;
+}
