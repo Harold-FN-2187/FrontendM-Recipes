@@ -6,22 +6,58 @@
     --stone-600:hsl(30, 10%, 34%);
     --stone-900:hsl(24, 5%, 18%);
     --brown-800:hsl(14, 45%, 36%);
+    --rose-801:hsl(332, 51%, 32%,0.2);
     --rose-800:hsl(332, 51%, 32%);
     --rose-50:hsl(330, 100%, 98%);
 }
 
 @font-face {
-    font-family: Outfit;
+    font-family: young-serif;
+    src:url('/assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    font-family: outfit;
     src:url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
-    font-family: Young;
-    src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf')
     
 }
 
 
-*{
-    /* background-color: wheat; */
-    font-family: Outfit,sans-serif;
+
+ 
+h2 {
+    font-family: young-serif;
+    font-weight: 400;
+    color:var(--brown-800);
+}
+
+p { 
+    font-family: outfit,sans-serif;
+    font-size: 15px;
+    margin-block-end: 25px;
+}
+
+ul ,ol,  li {
+    color: black;
+    line-height: 1.5;
+    font-family: outfit;
+}
+
+ol > li::marker {
+    font-weight: bold;
+    color: var(--brown-800);
+    
+}
+
+ol > li {
+    padding-left: 20px;
+}
+
+ul > li {
+    padding-left: 20px;
+}
+
+
+h1 {
+   font-family:outfit;
+    color:black;
 }
 
 
@@ -37,11 +73,12 @@ body {
 }
 
 .wrapper {
-    background-color: olive;
+    background-color:var(--white);
     max-width: 50vw;
     max-height: 100%;
     padding:15px;
     border-radius: 20px;
+    margin-block-end: 10px;
 }
 
 img {
@@ -52,24 +89,45 @@ img {
 }
 
 
- h1 
-{
-    font-family: Outfit, sans-serif;
-}
-
-#recipe-overview {
-    color:rebeccapurple;
-    font-family:Helvetica, sans-serif;
-}
-
 .prep {
-    background-color: var(--rose-800);
+    background: var(--rose-801);
+    margin-block-end: 20px;
+    font-family: outfit;
+    font-weight: 400;
+    padding:8px;
+    font-size: 14px;
+    
 }
 
-h2 {
-    font-family: Young,sans-serif;
+.prep h2 {
+    font-family:Outfit;
+    font-weight: 600;
+    color:var(--rose-800);
+    opacity: 1;
 }
 
-p {
-    font-size: 15px;
+
+
+table {
+    /* border-bottom:5px solid rebeccapurple; */
+    min-width: 100%;
+    font-family: outfit;
 }
+
+
+th, td {
+    /* border-bottom: 2px solid rebeccapurple; */
+}
+
+
+td {
+    border-bottom: 2px solid rebeccapurple;
+}
+
+/* Opacity for Preparation List 
+List style formatting
+Format right table data
+change prep h2 to h3
+clean up fonts
+add dividers
+*/
