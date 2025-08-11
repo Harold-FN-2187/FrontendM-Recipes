@@ -116,10 +116,9 @@ td {
     border-bottom: 2px solid var(--stone-150);
 }
 
-/* Opacity for Preparation List 
-clean up fonts
-*/
-
+#value {
+    color:var(--brown-800);
+}
 
 .attribution {
         font-size: 11px;
