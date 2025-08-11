@@ -28,8 +28,8 @@ h2 {
 
 p { 
     font-family: outfit,sans-serif;
-    font-size: 15px;
-    margin-block-end: 25px;
+    font-size: 0.938rem;
+    margin-block-end: 1.563rem  ;
 }
 
 ul ,ol,  li {
@@ -45,11 +45,11 @@ ol > li::marker {
 }
 
 ol > li {
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 ul > li {
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 
@@ -73,13 +73,13 @@ body {
     background-color:var(--white);
     max-width: 50vw;
     max-height: 100%;
-    padding:50px;
-    border-radius: 20px;
-    margin-block-end: 10px;
+    padding: 3.125rem;
+    border-radius: 1.25rem;
+    margin-block-end: 0.625rem;
 }
 
 img {
-    border-radius:10px;
+    border-radius: 0.625rem;
     max-width: 100%;
     height: auto;
 }
@@ -87,11 +87,11 @@ img {
 
 .prep {
     background: var(--rose-801);
-    margin-block-end: 20px;
+    margin-block-end: 1.25rem;
     font-family: outfit,sans-serif;
     font-weight: 400;
-    padding:8px;
-    font-size: 14px;
+    padding:0.5rem;
+    font-size: 0.875rem;
     
 }
 
@@ -113,7 +113,7 @@ table {
 
 
 td {
-    border-bottom: 2px solid var(--stone-150);
+    border-bottom: 0.125rem solid var(--stone-150);
 }
 
 #value {
@@ -121,7 +121,7 @@ td {
 }
 
 .attribution {
-        font-size: 11px;
+        font-size: 0.688rem;
         text-align: center;
         text-decoration: none;
         font-family: outfit,sans-serif;
