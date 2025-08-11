@@ -12,8 +12,6 @@
 }
 
 @font-face {
-    font-family: young-serif;
-    src:url('/assets/fonts/young-serif/YoungSerif-Regular.ttf');
     font-family: outfit;
     src:url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
     
@@ -23,8 +21,8 @@
 
  
 h2 {
-    font-family: young-serif;
-    font-weight: 400;
+    font-family:"Young Serif",sans-serif;
+    font-weight: 600;
     color:var(--brown-800);
 }
 
@@ -37,7 +35,7 @@ p {
 ul ,ol,  li {
     color: black;
     line-height: 1.5;
-    font-family: outfit;
+    font-family: outfit,sans-serif;
 }
 
 ol > li::marker {
@@ -56,14 +54,13 @@ ul > li {
 
 
 h1 {
-   font-family:outfit;
+   font-family:'Young Serif',sans-serif;
     color:black;
 }
 
 
 body {
     background-color:var(--stone-100);
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,23 +73,22 @@ body {
     background-color:var(--white);
     max-width: 50vw;
     max-height: 100%;
-    padding:15px;
+    padding:50px;
     border-radius: 20px;
     margin-block-end: 10px;
 }
 
 img {
-    border-radius:15px;
+    border-radius:10px;
     max-width: 100%;
-    max-height: 100%;
-    align-self: center;
+    height: auto;
 }
 
 
 .prep {
     background: var(--rose-801);
     margin-block-end: 20px;
-    font-family: outfit;
+    font-family: outfit,sans-serif;
     font-weight: 400;
     padding:8px;
     font-size: 14px;
@@ -100,7 +96,7 @@ img {
 }
 
 .prep h2 {
-    font-family:Outfit;
+    font-family:outfit,sans-serif;
     font-weight: 600;
     color:var(--rose-800);
     opacity: 1;
@@ -111,23 +107,28 @@ img {
 table {
     /* border-bottom:5px solid rebeccapurple; */
     min-width: 100%;
-    font-family: outfit;
+    font-family: outfit,sans-serif;
 }
 
-
-th, td {
-    /* border-bottom: 2px solid rebeccapurple; */
-}
 
 
 td {
-    border-bottom: 2px solid rebeccapurple;
+    border-bottom: 2px solid var(--stone-150);
 }
 
 /* Opacity for Preparation List 
-List style formatting
-Format right table data
-change prep h2 to h3
 clean up fonts
-add dividers
 */
+
+
+.attribution {
+        font-size: 11px;
+        text-align: center;
+        text-decoration: none;
+        font-family: outfit,sans-serif;
+      }
+
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
